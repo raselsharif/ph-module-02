@@ -60,3 +60,21 @@ label {
 input,label,button{
     font-size: 20px;
 }
+
+/* ============ table section start here ============ */
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: rgb(150, 145, 137);
+}
+td,th,tr{
+    padding: 10px;
+    width: 150px;
+    border: 1px solid rgb(71, 60, 60);
+}
+th{
+    background: ghostwhite;
+}
+tr:nth-child(odd){
+    background: rgb(163, 163, 199);
+}
